@@ -28,7 +28,7 @@
   box-shadow: 0px 2px 19px 6px rgb(127 97 155);
   border-width: 2px 3px 2px 5px;
   border-radius: 90% 6% 93% 5% / 5% 94% 7% 95%;
-  transform: rotate(2deg);
+  /* transform: rotate(2deg); */
 }
 
 .list-title {
