@@ -9,7 +9,7 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
       meta: {
-        title: '番茄鐘'
+        title: 'KURODORO'
       }
     },
     {
@@ -17,7 +17,7 @@ const router = createRouter({
       name: 'settings',
       component: () => import('@/views/SettingsView.vue'),
       meta: {
-        title: '番茄鐘 | 設定'
+        title: 'KURODORO | Settings'
       }
     },
     {
@@ -25,7 +25,7 @@ const router = createRouter({
       name: 'list',
       component: () => import('@/views/ListView.vue'),
       meta: {
-        title: '番茄鐘 | 清單'
+        title: 'KURODORO | List'
       }
     }
   ]
